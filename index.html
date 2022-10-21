@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/reset.css" />
+    <link rel="stylesheet" href="assets/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Tic-Tac-Toe</title>
+  </head>
+  <body>
+    <h2 class="just hide">"Just"</h2>
+    <h1 class="header">Tic-Tac-Toe</h1>
+    <div class="winningMessage"></div>
+
+    <div class="board">
+      <div class="cell top-left" data-id="0"></div>
+      <div class="cell top" data-id="1"></div>
+      <div class="cell top-right" data-id="2"></div>
+      <div class="cell left" data-id="3"></div>
+      <div class="cell center" data-id="4"></div>
+      <div class="cell right" data-id="5"></div>
+      <div class="cell bottom-left" data-id="6"></div>
+      <div class="cell bottom" data-id="7"></div>
+      <div class="cell bottom-right" data-id="8"></div>
+    </div>
+    <div class="controls hide">
+      <button id="prev">Previous</button>
+      <button id="restart">Rematch</button>
+      <button id="next">Next</button>
+    </div>
+    <div class="addMessage hide"><i>"Basta gumagana"</i> - Ma'am Kate 😎</div>
+
+    <script src="assets/app.js"></script>
+  </body>
+</html>
