@@ -27,6 +27,7 @@ const prevMove = document.getElementById('prev');
 const surpMessage = document.querySelector('.addMessage');
 const gameControl = document.querySelector('.controls');
 const just = document.querySelector('.just');
+const activePlayer = document.querySelector('.currentPlayer');
 
 //Next Prev Move
 
@@ -73,6 +74,8 @@ const isDraw = function () {
 const handleClick = function (e) {
   const cell = e.target;
   const currentPlayer = playerTurn ? playerO : playerX;
+  const activePlayer1 = playerTurn ? playerX : playerO;
+  activePlayer.textContent = `Current player : ${activePlayer1}`;
 
   //mark
   if (gameActive) {
