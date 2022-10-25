@@ -48,6 +48,13 @@ body {
   border-radius: 1rem;
   background: #e0e1dd;
 }
+.just {
+  font-style: italic;
+  font-size: 3rem;
+}
+.header {
+  font-size: 3rem;
+}
 .currentPlayer {
   font-size: 2rem;
   font-weight: 700;
@@ -56,10 +63,7 @@ body {
   font-size: 3rem;
   font-weight: 700;
 }
-.just {
-  font-style: italic;
-  font-size: 3rem;
-}
+
 .controls {
   display: flex;
   justify-content: space-around;
