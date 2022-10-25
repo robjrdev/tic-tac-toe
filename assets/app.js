@@ -83,8 +83,10 @@ const handleClick = function (e) {
 
     if (checkWin(currentPlayer)) {
       endGame(false);
+      activePlayer.classList.add('hide');
     } else if (isDraw()) {
       endGame(true);
+      activePlayer.classList.add('hide');
     } else {
       switchPlayer();
     }
